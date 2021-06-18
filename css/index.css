@@ -65,7 +65,6 @@
 .carousel-caption h3 {
   color: #ddd !important;
 }
-
 /* background 1*/
 .bg{
   background: #2d2d30;
@@ -136,12 +135,25 @@
 
 
 
-
+.color-gray{
+	color:gray;
+}
+.background-gray{
+	background:gray;
+}
+.background-darkblue{
+	background: #2d2d30;
+}
 /* Add a gray color to all navbar links*/ 
 .navbar li a, .navbar .navbar-brand {
-  color: #d5d5d5 !important;
+  /* color: #d5d5d5 !important; */
+  color:gray;
 }
-
+.navbar-brand{
+	font-weight:1000;
+	font-size:20px;
+	letter-spacing: 1px;
+}
 /* On hover, the links will turn white */
 .navbar-nav li a:hover {
   color: #fff !important;
@@ -163,7 +175,6 @@
   color: #fff ;
   background-color: #555 !important;
 }
-
 /* Dropdown links */
 .dropdown-menu li a {
   color: #000 !important;
@@ -188,22 +199,26 @@ textarea {
   resize: none;
 }
 
+
 @media screen and (max-width: 500px) {
   .container {
     padding: 10px 10px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 534px) {
+  .container {
+    padding: 10px 10px;
+  }
+  .tab-content{
+	padding:20px;
+	}
+	.navbar{
+		padding-bottom:10px;
+	}
+	.hid{
+		display:none;
+	}
+}
 
 
 
