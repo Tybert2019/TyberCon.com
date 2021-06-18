@@ -1,7 +1,7 @@
-/*body {
-  font: 400 15px/1.8 Lato, arial;
-  color: #777;
+body {
+  background:red;
 }
+/*
 .carousel{
   background-color: block;
 }
@@ -36,7 +36,7 @@
 /* nav bar*/
 
 .container {
-  padding: 10px 120px;
+  padding: 0;
 }
 .container2 {
   padding: 20px 20px;
@@ -217,6 +217,9 @@ textarea {
 	}
 	.hid{
 		display:none;
+	}
+	.col-sm-4{
+		width:100%;
 	}
 	.carousel-inner{
 		margin-top:100px;
