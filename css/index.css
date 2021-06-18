@@ -218,6 +218,9 @@ textarea {
 	.hid{
 		display:none;
 	}
+	.carousel-inner{
+		margin-top:100px;
+	}
 }
 
 
